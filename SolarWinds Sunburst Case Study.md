@@ -20,22 +20,19 @@ The SolarWinds Sunburst Case Study discusses a sophisticated cyberattack that oc
 
 # 2. Timeline:
 
-![Untitled](SolarWinds%20Sunburst%20Case%20Study%204477d666cf7642f093f944fd381a9842/Untitled.png)
-
+<img src="SolarWinds Sunburst Case Study Folder Pics/SSCS 1.png">
 *Picture Credited To - [SolarWinds attack changing nature of cybersecurity for ICSs | Industrial Cybersecurity Pulse | Industrial Cybersecurity Pulse](https://www.industrialcybersecuritypulse.com/it-ot/changing-winds-of-cybersecurity-for-icss/)
 
 # 3. Closer Analysis:
 
 ## Sunburst Attack Overview:
 
-![Untitled](SolarWinds%20Sunburst%20Case%20Study%204477d666cf7642f093f944fd381a9842/Untitled%201.png)
-
+<img src="SolarWinds Sunburst Case Study Folder Pics/SSCS 2.png">
 *Picture Credited To - [Analyzing Solorigate, the compromised DLL file that started a sophisticated cyberattack, and how Microsoft Defender helps protect customers | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/)
 
 ## Code Analysis:
 
-![Untitled](SolarWinds%20Sunburst%20Case%20Study%204477d666cf7642f093f944fd381a9842/Untitled%202.png)
-
+<img src="SolarWinds Sunburst Case Study Folder Pics/SSCS 3.png">
 *Picture Credited To - [Analyzing Solorigate, the compromised DLL file that started a sophisticated cyberattack, and how Microsoft Defender helps protect customers | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2020/12/18/analyzing-solorigate-the-compromised-dll-file-that-started-a-sophisticated-cyberattack-and-how-microsoft-defender-helps-protect/)
 
 In the SolarWinds Orion Platform, the attackers strategically injected malicious code into the *SolarWinds.Orion.Core.BusinessLayer.dll* code library. They carefully selected a method within this DLL component that is regularly invoked to embed their code, ensuring its consistent execution and persistence. The method named *RefreshInternal* met these criteria and was chosen for this purpose.
