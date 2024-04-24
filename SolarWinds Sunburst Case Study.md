@@ -96,11 +96,11 @@ The SolarWinds Orion Platform is written in Go, Java, C++, Python, and mainly in
 
 # 5. MITRE ATT&CKs
 
-1. [**Supply Chain Compromise (T1195.001)](https://attack.mitre.org/techniques/T1195/001/):** Attackers inserted malicious code into a SolarWinds Orion software update, allowing them to distribute the malware to numerous organizations.
+1. [**Supply Chain Compromise (T1195.001)**](https://attack.mitre.org/techniques/T1195/001/): Attackers inserted malicious code into a SolarWinds Orion software update, allowing them to distribute the malware to numerous organizations.
 
 1. [**Dynamic Resolution: Domain Generation Algorithms (DGAs) (T1568.002)**](https://attack.mitre.org/techniques/T1568/002/): Attackers used DGAs to generate a parent domain and randomly generated subdomains for command-and-control communications, evading detection and making it challenging for defenders to block or take over the C2 channel.
 
-1. [**Execution Guardrails: Environmental Keying (T1480.001)](https://attack.mitre.org/techniques/T1480/001/):** Attackers encrypted payloads using the Data Protection API (DPAPI) and derived an RC5 key from the infected system's volume serial number, making sandbox detection, anti-virus detection, and reverse engineering difficult.
+1. [**Execution Guardrails: Environmental Keying (T1480.001)**](https://attack.mitre.org/techniques/T1480/001/): Attackers encrypted payloads using the Data Protection API (DPAPI) and derived an RC5 key from the infected system's volume serial number, making sandbox detection, anti-virus detection, and reverse engineering difficult.
 
 More MITRE ATT&CKs related to Sunburst - [SUNBURST, Software S0559 | MITRE ATT&CK®](https://attack.mitre.org/software/S0559/)
 
