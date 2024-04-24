@@ -107,7 +107,7 @@ In the initial stage of this cyberattack, a threat actor could use different met
 
 The image below shows successful finding of EternalBlue vulnerability using nmap
 
-![Untitled](WannaCry%20Case%20Study%2081b634d9b31340caa15a3f9d89d7c0ee/Untitled.png)
+<img src="WannaCry Case Study Folder Pics/WCS 1.png">
 
 Cybernews screenshot
 
@@ -115,7 +115,7 @@ Cybernews screenshot
 
 The image below shows prebuilt EternalBlue exploits
 
-![Untitled](WannaCry%20Case%20Study%2081b634d9b31340caa15a3f9d89d7c0ee/Untitled%201.png)
+<img src="WannaCry Case Study Folder Pics/WCS 2.png">
 
 Cybernews screenshot
 
@@ -133,13 +133,13 @@ The Metasploit Framework is a Ruby-based, modular penetration testing platform t
 
 Metasploit Framework has an EternalBlue exploit, which can be used directly to exploit vulnerable systems.
 
-![Untitled](WannaCry%20Case%20Study%2081b634d9b31340caa15a3f9d89d7c0ee/Untitled%202.png)
+<img src="WannaCry Case Study Folder Pics/WCS 3.png">
 
 Cybernews screenshot
 
 The image below shows successful exploitation of the EternalBlue vulnerability
 
-![Untitled](WannaCry%20Case%20Study%2081b634d9b31340caa15a3f9d89d7c0ee/Untitled%203.png)
+<img src="WannaCry Case Study Folder Pics/WCS 4.png">
 
 Cybernews screenshot
 
@@ -161,17 +161,17 @@ Once the attackers achieve this initial overflow, they can take advantage of a t
 
 Upon successfully compromising the initial system, the attacker begins their reconnaissance phase. They explore the network, scanning for other vulnerable systems or potential targets. Using tools like Nmap or Metasploit, the attacker identifies additional systems with unpatched vulnerabilities, possibly even finding weak or default credentials that grant further access.
 
-![Untitled](WannaCry%20Case%20Study%2081b634d9b31340caa15a3f9d89d7c0ee/Untitled%204.png)
+<img src="WannaCry Case Study Folder Pics/WCS 5.png">
 
 Cybernews screenshot
 
-![Untitled](WannaCry%20Case%20Study%2081b634d9b31340caa15a3f9d89d7c0ee/Untitled%205.png)
+<img src="WannaCry Case Study Folder Pics/WCS 6.png">
 
 Cybernews screenshot
 
 The image below shows successful privilege escalation.
 
-![Untitled](WannaCry%20Case%20Study%2081b634d9b31340caa15a3f9d89d7c0ee/Untitled%206.png)
+<img src="WannaCry Case Study Folder Pics/WCS 7.png">
 
 Cybernews screenshot
 
