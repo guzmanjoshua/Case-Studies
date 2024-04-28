@@ -1,4 +1,4 @@
-# SolarWinds Sunburst Case Study
+# SolarWinds Case Study
 
 # Contents
 
